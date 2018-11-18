@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0 0 1vh;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+[class*="grid-"], [class*="grid_"], [class~="grid"]{
+  margin: 1vw;
+}
+
+img{
+  max-width: 300px;
+}
+
+section,.border{
+  border: 1px solid black;
+  width: 86vw;
+  min-height: 90vh;
+}
+.border{
+  margin: 2vh auto;
+}
+section{
+  min-height: 93vh;
+  padding: 5vw;
+  -webkit-transform: translate(5vW, 2vh);
+  transform: translate(5vW, 2vh);
+}
+
+.flex-center{
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.center{
+  text-align: center;
+}
